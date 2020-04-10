@@ -9,3 +9,5 @@ cd ide_config
 
 source ~/.java_config.sh 6/7/8
 
+source ~/.bash_profile
+
