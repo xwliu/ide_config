@@ -20,5 +20,6 @@ export PATH=$PATH:~/mtools/bin
 
 cp -rf rg ~/mtools/bin/
 cp -rf fd ~/mtools/bin/
+cp -rf tmuxmine.sh ~/mtools/bin/
 
 chmod a+x ~/mtools/bin/*
