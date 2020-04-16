@@ -67,18 +67,18 @@ endfunc
 
 "file list
 map <silent> <F2> :NERDTreeToggle<cr>
+"swapfile list
+map <silent> <F3> :BufExplorer<CR>
 "tarbar functon list
-map <silent> <F3> :TagbarToggle<cr>
-"header and implement file switch
-map <F4> :A<cr>
+map <silent> <F4> :TagbarToggle<cr>
 "update index
 map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>:cs kill cscope.out<cr>:!cscope -Rb<cr><cr>:cs add cscope.out<cr>
 "switch display invisable char or not
 map <F6> :set list!<cr>:set list?<cr>
 "highlight
 map <F7> ms:%s /\<<C-R>=expand("<cword>")<CR>\>//gn<cr>`s
-"swapfile list
-map <silent> <F8> :BufExplorer<CR>
+"header and implement file switch
+map <F8> :A<cr>
 "switch tab expand to space or not
 map <F9> :set expandtab!<cr>:set expandtab?<cr>
 "switch tab expand to space or not
